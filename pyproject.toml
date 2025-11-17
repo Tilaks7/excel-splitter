@@ -1,0 +1,15 @@
+[project]
+name = "excel-splitter"
+version = "0.1.0"
+description = "Excel splitting utility"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+
+[project.dependencies]
+pandas = "^1.5"
+openpyxl = "^3.0"
+
+[build-system]
+requires = ["setuptools>=61.0","wheel"]
+build-backend = "setuptools.build_meta"
